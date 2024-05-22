@@ -1,0 +1,23 @@
+{
+  "name": "firstnode",
+  "version": "1.0.0",
+  "description": "This is demo node project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Gourav waskle",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.2.1",
+    "morgan": "^1.10.0"
+  }
+}
